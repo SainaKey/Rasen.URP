@@ -1,8 +1,10 @@
-Shader "Rasen/DepthCapture_URP"
+Shader "Rasen/Layer"
 {
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _Layer0 ("Layer0",2D) = "white" {}
+        _Layer1 ("Layer1",2D) = "white" {}
         _NearDistance ("Near Distance", Float) = 0.5
         _FarDistance ("Far Distance", Float) = 20.0
     }
@@ -28,6 +30,10 @@ Shader "Rasen/DepthCapture_URP"
 
             TEXTURE2D(_MainTex);
             SAMPLER(sampler_MainTex);
+            TEXTURE2D(_Layer0);
+            SAMPLER(sampler_Layer0);
+            TEXTURE2D(_Layer1);
+            SAMPLER(sampler_Layer1);
             
             float _NearDistance;
             float _FarDistance;
