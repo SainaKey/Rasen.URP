@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41af9945dc356be41b29db623118de19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: bb334a5f2db61c3469b01d81630e9f2e, type: 3}
+  shader: {fileID: 4800000, guid: d88b1c1709cba44eeb760cc0d5204879, type: 3}
   material: {fileID: 0}
   inRT: {fileID: 8400000, guid: 3930a07e03b9bb145915a7850df966aa, type: 2}
   outRT: {fileID: 8400000, guid: e96f6f29450df2e428c62b556c131b50, type: 2}
